@@ -497,7 +497,7 @@ body{
 	margin: auto;
 	left: -100%;
 	bottom: -1px;
-	width: 100%;		
+	width: 90%;		
 	height: 1px;
 	background-color: #fff;
 }
@@ -533,6 +533,7 @@ body{
 	background: #5A98D0;
 	border-radius: 10px;
 	padding: 15px 75px;
+	margin-right: 200px;
 }
 
 footer{
