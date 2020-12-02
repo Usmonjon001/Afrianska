@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul{
 
 .header{
 	background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
-	border: 1px solid blue;
 	margin-top: 90px;
 }
 
@@ -104,6 +103,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul{
 	padding: 20px 72px;
 	background: #F4F4F4;
 	border-radius: 10px;
+	border: 1px solid #F4F4F4;
 	font-size: 16px;
 	line-height: 19px;
 	color: #1F3F68;
@@ -390,7 +390,7 @@ footer:after{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
+	width: 90%;
 	box-sizing: border-box;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -504,7 +504,7 @@ footer:after{
 }
 
 .unordered{
-	padding-right: 150px;
+	padding-right: 350px;
 }
 
 

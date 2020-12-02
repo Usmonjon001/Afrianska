@@ -9,6 +9,9 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: arial;
+	background-image: url("./img/header/backgr.svg");
+	background-repeat: no-repeat;
+	background-position: 660px 90px;
 }
 
 .header{
@@ -25,7 +28,7 @@ body{
 }
 
 .header a{
-	padding: 10px;
+	padding: 10px 50px;
 }
 
 .header img{
@@ -43,11 +46,10 @@ body{
 
 .headerMain{
 	display: flex;
-	background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
-	background-image: url("./img/header/backgr.svg");
 	height: 600px;
-	background-repeat: no-repeat;
-	background-position: right;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .headerText{
@@ -56,6 +58,12 @@ body{
 	/*display: flex;
 	align-items: flex-start;
 	justify-content: flex-start;*/
+}
+
+.linear{
+	background: linear-gradient(0deg, rgba(160,187,209, 0.4) 8.84%, rgba(152, 195, 232, 0) 31.12%);
+	height: 100vh;
+	margin-top: 20px;
 }
 
 .headerText h1{
@@ -104,7 +112,7 @@ body{
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 600px;
+	width: 50%;
 }
 
 .section2ConBox:hover{
@@ -171,9 +179,10 @@ body{
 
 .section2CB2 {
 	display: flex;
-	align-items: flex-start;
+	align-items: flex-end;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-end;
+	width: 50%;
 }
 
 .section2ConBox2{
@@ -267,6 +276,7 @@ body{
 	background-image: url('./img/section3/backgr1.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 20px;
 }
 
 .section3HomeDesign{
@@ -274,6 +284,7 @@ body{
 	background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
 	width: 1200px;
 	height: 454px;
+	border-radius: 20px;
 }
 
 .section3HomeDesign{
@@ -312,8 +323,20 @@ body{
 	background-repeat: no-repeat;
 	background-size: 550px 450px;
 	border-radius: 10px;
-	padding: 24px 32px;
+	
 }
+
+.background{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 24px 32px;
+	border-radius: 10px;
+	background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+}
+
+
+
 
 .section3CBox{
 	display: flex;
@@ -484,9 +507,9 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
-	border-bottom: 1px solid #fff;
+	width: 90%;
 	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
 	padding-bottom: 96px;
 	position: relative;
 }
@@ -497,7 +520,7 @@ body{
 	margin: auto;
 	left: -100%;
 	bottom: -1px;
-	width: 90%;		
+	width: 100%;		
 	height: 1px;
 	background-color: #fff;
 }
@@ -535,6 +558,10 @@ body{
 	padding: 15px 75px;
 	margin-right: 200px;
 }
+
+
+
+
 
 footer{
 	display: flex;
@@ -662,9 +689,8 @@ footer{
 
 .SecondColumn{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
-	width: 500px;
 	box-sizing: border-box;
 	margin-left: 100px;
 	padding-top: 35px;
@@ -709,7 +735,10 @@ footer{
 	opacity: 0.4;
 }
 
-
+.unordered{
+	margin-right: 200px;
+	margin-left: 100px;
+}
 
 
 

@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .header{
@@ -339,7 +340,7 @@ footer:after{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
+	width: 90%;
 	box-sizing: border-box;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -471,6 +472,31 @@ footer:after{
 	color: #FFFFFF;
 	opacity: 0.4;
 }
+
+iframe{
+	width: 100%;
+	box-sizing: border-box;
+	height: 500px;
+	margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
